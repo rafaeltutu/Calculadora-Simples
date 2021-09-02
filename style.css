@@ -1,12 +1,14 @@
 body{
-    font-family:  'Open Sans', sans-serif;    
+    font-family:  'Open Sans', sans-serif;   
+    background-color: black; 
 }
 
 #container{
-    width: 320px;
+    width: 1000px;
     height: 0px;
-    background-image: linear-gradient(rgba(0,0,0,3), rgba(0,0,0,3)), url(foto1.jpg);
+    background-image: linear-gradient(rgba(255, 179, 179, 0.548), rgba(26, 24, 24, 0.2)), url(foto1.jpg);
     margin: 20px auto;
+    opacity: .8;
 }
 
 #calculator{
@@ -17,7 +19,7 @@ body{
     top: 60px;
     position: relative;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(19,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.548), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #result{
